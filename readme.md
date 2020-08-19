@@ -1,5 +1,7 @@
 This project was done in association with the IEEE Student Branch on the UCLA campus.
-This is the second iteration of the project.
+This is the second iteration of the project. Due to the 2020 global pandemic, this
+project was cut short for the 2019-2020 academic year and will resume in the 2020-
+2021 academic year.
 
 The goal of the project was to: 1. Design and assemble a custom PCB for a drone,
 2. Write a program to hover the drone, then fly the drone. Because of the nature
@@ -16,6 +18,12 @@ a voltage regulator). Additionally, this chip was more ideal than other chips of
 similar style because it handles floating point calculations better which allows
 for simplicity and efficiency when writing the program.
 
+Voltage Regulator: The voltage regulator used is the LTC3246MPMSE from Linear 
+Technology. This component was chosen since it is a buck boost regulator with
+the ability to step down or step up voltage as we need in this application. This
+component is larger, more expensive, and more complex than the regulator used in
+the first iteration but it accomplishes the same purpose while being much easier
+to solder onto the board.
 
 Wireless Module: The wireless module used is the nrf24l01 which is standard, easy
 to use, and familiar so we used it in this application since it fits well with the
